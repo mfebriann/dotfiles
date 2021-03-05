@@ -83,6 +83,9 @@
 - Ctrl + a to Select all text on _Normal Mode_
 - Show emmet press `,,` double comma
 - Automatically add close bracket
+- Switch tabs using `Ctrl` + `Right` arrow keyboard for Next tab
+- Switch tabs using `Ctrl` + `Left` arrow keyboard for Previous tab
+- Switch tabs using `\1` in order tabs
 
 # Shortcut
 
