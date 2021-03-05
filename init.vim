@@ -100,8 +100,6 @@ nnoremap <CR> o<Esc>k
 " Fix width NerdTree
 let g:NERDTreeWinSize=50
 
-
-
 " Settings simple  
 set encoding=utf8
 set tabstop=2
