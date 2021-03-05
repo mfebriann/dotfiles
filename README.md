@@ -85,7 +85,7 @@
 - Automatically add close bracket
 - Switch tabs using `Ctrl` + `Right` arrow keyboard for Next tab
 - Switch tabs using `Ctrl` + `Left` arrow keyboard for Previous tab
-- Switch tabs using `\1` in order tabs
+- Switch tabs using `\1` in order tabs, if switch last tabs using `\0`
 
 # Shortcut
 
