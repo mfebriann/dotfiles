@@ -14,8 +14,9 @@
 2. Lightline colorscheme wombat
 - https://github.com/itchyny/lightline.vim
 
-3. NerdTree
-- https://github.com/preservim/nerdtree
+3. CHADtree
+- https://github.com/ms-jpq/chadtree
+  - Docs https://github.com/ms-jpq/chadtree/tree/chad/docs
 
 4. Vim DevIcons
 - https://github.com/ryanoasis/vim-devicons
@@ -71,9 +72,9 @@
 
 ## Controls
 
-- Controls NerdTree
-   - Ctrl + b to open NerdTree
-   - Ctrl + f to find NerdTree
+- Controls CHADtree
+   - Ctrl + b to open CHADtree
+   - Ctrl + f to focus CHADtree
 
 - Controls FZF / Fuzzy Finder
    - Ctrl + e to find files with FZF
