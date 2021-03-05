@@ -46,10 +46,10 @@
 
 13. Can give color for syntax code
 - https://github.com/sheerun/vim-polyglot
-  - Short Description https://gist.github.com/mfebriann/0e7e1f357e081cc276139f80cc2f5ad7
 
 14. Snippets
 - https://github.com/SirVer/ultisnips
+  - Short Description https://gist.github.com/mfebriann/a9d55a44a50647c3caecbc08c1cd654b
 
 
 # Other Sources
@@ -59,6 +59,7 @@
 
 2. Mapping switch between tabs
 - https://superuser.com/questions/410982/in-vim-how-can-i-quickly-switch-between-tabs
+  - Short Description https://gist.github.com/mfebriann/b1d1a8462a9bec506511d6dd97f9bd2e
 
 3. Block tabs
 - https://vim.fandom.com/wiki/Shifting_blocks_visually#Mappings
