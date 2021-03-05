@@ -1,4 +1,4 @@
- call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 " Snippets plugin
 Plug 'SirVer/ultisnips'
 " Colorscheme
@@ -10,8 +10,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 " Plugin Lightline 
 Plug 'itchyny/lightline.vim'
-" Plugin Nerdtree / workspace 
-Plug 'scrooloose/nerdtree'
+" Chadtree
+Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
 " Plugin Icons 
 Plug 'ryanoasis/vim-devicons'
 " Can give color for syntax code  
@@ -58,9 +58,14 @@ let g:lightline = {
 \ 'colorscheme': 'wombat',
 \ }
 
-" Open NERDTree with Ctrl + b
-nnoremap <C-b> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
+" Open CHADtree with Ctrl + b
+let g:chadtree_settings = {
+      \ 'view': {
+      \   'width': 50
+      \ }
+    \ }
+nnoremap <C-b> :CHADopen<CR>
+nmap <C-f> :CHADopen --always-focus<CR> 
 
 " Open Window Tab
 nnoremap <C-w> :vsplit<CR>
@@ -94,14 +99,10 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 autocmd FileType apache setlocal commentstring=#\ %s
 
 " Width and Height FZF / Fuzzy Finder
-let g:fzf_layout = { 'window': { 'width': 2, 'height': 0.9   }  }
+let g:fzf_layout = { 'window': { 'width':1 , 'height': 0.9   }  }
 
 " Enter in Normal Mode
 nnoremap <CR> o<Esc>k
-
-" Fix width NerdTree
-let g:NERDTreeWinSize=51
-
 
 " Settings simple  
 set encoding=utf8
