@@ -51,8 +51,10 @@
 - https://github.com/SirVer/ultisnips
   - Short Description https://gist.github.com/mfebriann/a9d55a44a50647c3caecbc08c1cd654b
 
+15. Multiple Cursor
+- https://github.com/terryma/vim-multiple-cursors
 
-# Other Sources
+## Other Sources
 1. Colorscheme FZF / Fuzzy Finder
 - https://github.com/junegunn/fzf/wiki/Color-schemes
   - Short Description https://gist.github.com/mfebriann/29263ae9314d0244335e98d138b3b6a5
@@ -67,33 +69,57 @@
 4. Colorscheme left panel FZF / Fuzzy Finder
 - https://github.com/junegunn/fzf/wiki/Color-schemes
 
-# Controls
+## Controls
 
-- Ctrl + b to open NerdTree
-- Ctrl + f to find NerdTree
-- Ctrl + e to find files with FZF
-- Ctrl + g to find string / text with F2F // Requirement install ripgrep
-- Ctrl + w to open new window
-- Ctrl + k to move left window split
-- Ctrl + l to move right window split
-- Ctrl + s to Autocomplete
-- Ctrl + x to Cut on _Visual Line Mode_
-- Ctrl + v to Paste  on _Insert Mode_
-- Ctrl + c to Copy  on _Visual Line Mode_
-- Ctrl + a to Select all text on _Normal Mode_
-- Show emmet press `,,` double comma
+- Controls NerdTree
+   - Ctrl + b to open NerdTree
+   - Ctrl + f to find NerdTree
+
+- Controls FZF / Fuzzy Finder
+   - Ctrl + e to find files with FZF
+   - Ctrl + g to find string / text with F2F // Requirement install ripgrep
+
+- Controls Window / Open Column 
+   - Ctrl + w to open new window
+   - Ctrl + k to move left window split
+   - Ctrl + l to move right window split
+- Controls Autocomplete
+   - Ctrl + s to Autocomplete
+
+- Controls Cut, Copy,Paste and Select All
+   - Ctrl + x to Cut on _Visual Line Mode_
+   - Ctrl + v to Paste  on _Insert Mode_
+   - Ctrl + c to Copy  on _Visual Line Mode_
+   - Ctrl + a to Select all text on _Normal Mode_
+
+- Controls Active Emmet for HTML 5
+   - Show emmet press `,,` double comma
+
 - Automatically add close bracket
-- Switch tabs using `Ctrl` + `Right` arrow keyboard for Next tab
-- Switch tabs using `Ctrl` + `Left` arrow keyboard for Previous tab
-- Switch tabs using `\1` in order tabs, if switch last tabs using `\0`
-- Give commentar one line using `\c`
-- Give commentar select text using `Ctrl` + `\`
-- Hide code select `\h`
-- Show code select `\s`, switch insert mode can also
-- Next tab snippets `Ctrl` + `x`
-- Previous tab snippets `Ctrl` + `z`
 
-# Shortcut
+- Controls Switch between tabs
+   - Switch tabs using `Ctrl` + `Right` arrow keyboard for Next tab
+   - Switch tabs using `Ctrl` + `Left` arrow keyboard for Previous tab
+   - Switch tabs using `\1` in order tabs, if switch last tabs using `\0`
+
+- Controls Commentar text 
+   - Give commentar one line using `\c`
+   - Give commentar select text using `Ctrl` + `\`
+
+- Controls Hide and Show text / code with fold 
+   - Hide code select `\h`
+   - Show code select `\s`, switch insert mode can also
+
+- Controls Next or Previous tab snippets
+   - Next tab snippets `Ctrl` + `x`
+   - Previous tab snippets `Ctrl` + `z`
+
+- Controls Multiline Cursor
+   - Select cursor / text `Ctrl` + `n`, next select cursor
+   - Skip the next match cursor `Ctrl` + `x` 
+   - Previous select cursor `Ctrl` + `p`
+
+## Shortcut
 
 1. Rename file or directory with nvim or vim
 - `\ls | nvim -` or `\ls | vim -` 
