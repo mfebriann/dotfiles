@@ -86,6 +86,12 @@
 - Switch tabs using `Ctrl` + `Right` arrow keyboard for Next tab
 - Switch tabs using `Ctrl` + `Left` arrow keyboard for Previous tab
 - Switch tabs using `\1` in order tabs, if switch last tabs using `\0`
+- Give commentar one line using `\c`
+- Give commentar select text using `Ctrl` + `\`
+- Hide code select `\h`
+- Show code select `\s`, switch insert mode can also
+- Next tab snippets `Ctrl` + `x`
+- Previous tab snippets `Ctrl` + `z`
 
 # Shortcut
 
@@ -95,4 +101,5 @@
 
 2. Directory configuration snippets `Ultisnips`
 
+3. How to check map-overview map-modes, `:h map.txt`
 <img src="using-neovim.png">
