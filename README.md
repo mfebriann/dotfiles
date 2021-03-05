@@ -98,8 +98,8 @@
 1. Rename file or directory with nvim or vim
 - `\ls | nvim -` or `\ls | vim -` 
   - change with command mv, then save with command `:w !sh` then `q!`
-
 2. Directory configuration snippets `Ultisnips`
-
 3. How to check map-overview map-modes, `:h map.txt`
+4. How to check key-notation `:h key-notation`
+
 <img src="using-neovim.png">
