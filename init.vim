@@ -1,4 +1,4 @@
-call plug#begin('~/.config/nvim/plugged')
+ call plug#begin('~/.config/nvim/plugged')
 " Snippets plugin
 Plug 'SirVer/ultisnips'
 " Colorscheme
@@ -26,6 +26,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 " Autocomplete
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Multiple cursor
+Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
 " Theme Colorscheme OceanicNext
@@ -39,11 +41,11 @@ colorscheme OceanicNext
 " Emmet HTML & CSS 
 let g:user_emmet_install_global = 1
 autocmd FileType html,css EmmetInstall
-" Snippet HTML 6 / Emmet HTML 5
+" Snippet  Emmet HTML 5
 let g:user_emmet_settings = {                                                                                                                                                             
       \  'html': {                                                                                                                                                      
       \    'snippets': {                                                                                                                                                
-      \      'html:6': '!!!+html[lang="en"]>(head>(meta[charset=${charset}]+meta[name="viewport" content="width=device-width,initial-scale=1.0"]+meta[http-equiv="X-UA-Compatible" content="IE=edge"]+title^body'                                                                                                                                                          
+      \      'html:5': '!!!+html[lang="en"]>(head>(meta[charset=${charset}]+meta[name="viewport" content="width=device-width,initial-scale=1.0"]+meta[http-equiv="X-UA-Compatible" content="IE=edge"]+title^body'                                                                                                                                                          
     \}                                                                                                                                                                
  \}                                                                                                                                                                
  \}
@@ -99,6 +101,7 @@ nnoremap <CR> o<Esc>k
 
 " Fix width NerdTree
 let g:NERDTreeWinSize=51
+
 
 " Settings simple  
 set encoding=utf8
