@@ -106,9 +106,10 @@ set noswapfile
 set number
 
 " Mapping
+nmap <C-z> u
 nmap <C-a> ggVG
 vmap <C-c> "+y
-imap <C-v> <Esc>pi
+map <C-p> "+gP
 vmap <C-x> d<Esc>i
 " Mapping Tabs
 vnoremap > >gv
