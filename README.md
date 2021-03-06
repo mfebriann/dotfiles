@@ -79,4 +79,10 @@
 3. How to check map-overview map-modes, `:h map.txt`
 4. How to check key-notation `:h key-notation`
 
-<img src="using-neovim.png">
+## Preview
+
+<img src="textEditor.png">
+<img src="fuzzyFinder.png">
+<img src="fileManager.png">
+
+
