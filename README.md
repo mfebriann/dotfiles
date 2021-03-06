@@ -49,7 +49,8 @@
 | `Ctrl` + `l` | Move right window | Normal Mode |
 | `Ctrl` + `s` | Autoformat Prettier | Normal Mode |
 | `Ctrl` + `x` | Cut text | Visual Line Mode |
-| `Ctrl` + `v` | Paste text | Insert Mode |
+| `Ctrl` + `p` | Paste text | Normal Mode, Visual Mode |
+| `Ctrl` + `z` | Undo | Normal Mode |
 | `Ctrl` + `c` | Copy text | Visual Mode |
 | `Ctrl` + `a` | Select all text | Normal Mode |
 | Press double comma `,,` | Stucture HTML5 | Insert Mode, Normal Mode |
