@@ -82,7 +82,9 @@
 ## Preview
 
 <img src="textEditor.png">
+
 <img src="fuzzyFinder.png">
+
 <img src="fileManager.png">
 
 
