@@ -106,7 +106,8 @@ set noswapfile
 set number
 
 " Mapping
-nmap <C-z> u
+map u <Nop>
+nnoremap <C-z> u
 nmap <C-a> ggVG
 vmap <C-c> "+y
 map <C-p> "+gP
