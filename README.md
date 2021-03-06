@@ -47,7 +47,7 @@
 | `Ctrl` + `w` | Open new window in right | Normal Mode |
 | `Ctrl` + `k` | Move left window | Normal Mode |
 | `Ctrl` + `l` | Move right window | Normal Mode |
-| `Ctrl` + `s` | Autocomplete | Normal Mode |
+| `Ctrl` + `s` | Autoformat Prettier | Normal Mode |
 | `Ctrl` + `x` | Cut text | Visual Line Mode |
 | `Ctrl` + `v` | Paste text | Insert Mode |
 | `Ctrl` + `c` | Copy text | Visual Mode |
