@@ -10,7 +10,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 " Plugin Lightline 
 Plug 'itchyny/lightline.vim'
-" Chadtree
+" CHADtree
 Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
 " Plugin Icons 
 Plug 'ryanoasis/vim-devicons'
