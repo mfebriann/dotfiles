@@ -115,7 +115,7 @@ set number
 
 " Mapping
 nmap <C-a> ggVG
-vmap <C-c> "*y
+vmap <C-c> "+y
 imap <C-v> <Esc>pi
 vmap <C-x> d<Esc>i
 " Mapping Tabs
