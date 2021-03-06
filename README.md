@@ -25,6 +25,7 @@
 | Snippets | https://github.com/SirVer/ultisnips | | https://gist.github.com/mfebriann/a9d55a44a50647c3caecbc08c1cd654b |
 | Multiple cursor | https://github.com/terryma/vim-multiple-cursors |
 
+
 ## Other Source
 
 | Name | Link | Link Short Description |
@@ -34,45 +35,40 @@
 | Shifting blocks visually | https://vim.fandom.com/wiki/Shifting_blocks_visually#Mappings |
 | Colorscheme left panel FZF | https://github.com/junegunn/fzf/wiki/Color-schemes | 
 
+
 ## Controls / Commands
 
-- Controls CHADtree
-   - Ctrl + b to open CHADtree
-   - Ctrl + f to focus CHADtree
-- Controls FZF / Fuzzy Finder
-   - Ctrl + e to find files with FZF
-   - Ctrl + g to find string / text with F2F // Requirement install ripgrep
-- Controls Window / Open Column 
-   - Ctrl + w to open new window
-   - Ctrl + k to move left window split
-   - Ctrl + l to move right window split
-- Controls Autocomplete
-   - Ctrl + s to Autocomplete
-- Controls Cut, Copy,Paste and Select All
-   - Ctrl + x to Cut on _Visual Line Mode_
-   - Ctrl + v to Paste  on _Insert Mode_
-   - Ctrl + c to Copy  on _Visual Line Mode_
-   - Ctrl + a to Select all text on _Normal Mode_
-- Controls Active Emmet for HTML 5
-   - Show emmet press `,,` double comma
-- Automatically add close bracket
-- Controls Switch between tabs
-   - Switch tabs using `Ctrl` + `Right` arrow keyboard for Next tab
-   - Switch tabs using `Ctrl` + `Left` arrow keyboard for Previous tab
-   - Switch tabs using `\1` in order tabs, if switch last tabs using `\0`
-- Controls Commentar text 
-   - Give commentar one line using `\c`
-   - Give commentar select text using `Ctrl` + `\`
-- Controls Hide and Show text / code with fold 
-   - Hide code select `\h`
-   - Show code select `\s`, switch insert mode can also
-- Controls Next or Previous tab snippets
-   - Next tab snippets `Ctrl` + `x`
-   - Previous tab snippets `Ctrl` + `z`
-- Controls Multiline Cursor
-   - Select cursor / text `Ctrl` + `n`, next select cursor
-   - Skip the next match cursor `Ctrl` + `x` 
-   - Previous select cursor `Ctrl` + `p`
+| Commands | Descriptions | Modes |
+| -------- | ------------ | ----- |
+| `Ctrl` + `b` | Open CHADtree | Normal Mode |
+| `Ctrl` + `f` | Focus CHADtree | Normal Mode |
+| `Ctrl` + `e` | Find files with FZF | Normal Mode |
+| `Ctrl` + `g` | Find string / text with FZF | Normal Mode |
+| `Ctrl` + `w` | Open new window in right | Normal Mode |
+| `Ctrl` + `k` | Move left window | Normal Mode |
+| `Ctrl` + `l` | Move right window | Normal Mode |
+| `Ctrl` + `s` | Autocomplete | Normal Mode |
+| `Ctrl` + `x` | Cut text | Visual Line Mode |
+| `Ctrl` + `v` | Paste text | Insert Mode |
+| `Ctrl` + `c` | Copy text | Visual Mode |
+| `Ctrl` + `a` | Select all text | Normal Mode |
+| Press double comma `,,` | Stucture HTML5 | Insert Mode, Normal Mode |
+| Automatically add close bracket | Insert Mode |
+| `Ctrl` + `Right` | Arrow right keyboard for Next Tabs | Normal Mode |
+| `Ctrl` + `Left` | Arrow left keyboard for Previous Tabs | Normal Mode |
+| `\1`, `\2`, `\3`, `\4`, .... | Switch tabs order with number | Normal Mode |
+| `\0` | Siwtch last tabs | Normal Mode |
+| `\c` | Give commentar one line | Normal Mode |
+| `Ctrl` + `\` | Give commentar select text | Normal Mode, Visual Mode |
+| `\h` | Hide code select with fold | Visual Mode |
+| `\s` | Show code select with fold | Visual Mode |
+| `Ctrl` + `x` | Next tab snippets | Insert Mode |
+| `Ctrl` + `z` | Previous tab snippets | Insert Mode |
+| `Ctrl` + `n` | Select cursor and next select text | Normal mode |
+| `Ctrl` + `x` | Skip the next cursor select | Normal Mode |
+| `Ctrl` + `p` | Previous select cursor | Normal Mode |
+
+ 
 
 ## Notes
 
