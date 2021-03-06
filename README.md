@@ -9,7 +9,7 @@
 ## Plugins
 
 | Name Plugins | Link Plugins | Documentation | Short Description |
-| :----------: | ------------ |
+| :----------: | ------------ | ------------- | ----------------- |
 | Colorscheme Oceanic Next | https://github.com/mhartington/oceanic-next |
 | Lightline colorscheme `wombat` | https://github.com/mhartington/oceanic-next |
 | CHADtree | https://github.com/itchyny/lightline.vim | Docs https://github.com/ms-jpq/chadtree/tree/chad/docs |
