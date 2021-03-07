@@ -54,6 +54,9 @@ let g:lightline = {
 let g:chadtree_settings = {
       \ 'view': {
       \   'width': 50
+      \ },
+      \ 'keymap': {
+      \    'new': ['n'] 
       \ }
     \ }
 nnoremap <C-b> :CHADopen<CR>
