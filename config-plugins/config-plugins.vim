@@ -63,3 +63,9 @@ autocmd FileType apache setlocal commentstring=#\ %s
 
 " Width and Height FZF / Fuzzy Finder
 let g:fzf_layout = { 'window': { 'width':1 , 'height': 0.9   }  }
+
+" Indent line char list
+let g:indentLine_char_list = ['|']
+" GVim
+let g:indentLine_color_gui = 'white'
+let g:indentLine_bgcolor_gui = '#0066cc'
