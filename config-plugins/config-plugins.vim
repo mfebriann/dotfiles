@@ -69,3 +69,4 @@ let g:indentLine_char_list = ['|']
 " GVim
 let g:indentLine_color_gui = 'white'
 let g:indentLine_bgcolor_gui = '#0066cc'
+let g:indentLine_enabled = 0
