@@ -80,7 +80,7 @@ silent! nmap <C-g> :Rg<CR>
 "Autoformat 
 au FileType css,scss let b:prettier_exec_cmd = "prettier-stylelint"
 let g:prettier#config#html_whitespace_sensitivity = 'css'
-let g:prettier#config#print_width = 241
+let g:prettier#config#print_width = 240
 " Mapping saving
 nmap <C-s> <Plug>(Prettier)
 " Disabled Quickfixlist
