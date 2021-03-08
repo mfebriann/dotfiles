@@ -79,7 +79,7 @@
 2. Directory configuration snippets `Ultisnips`
 3. How to check map-overview map-modes, `:h map.txt`
 4. How to check key-notation `:h key-notation`
-5. Load session project being worked on `mksession nameFile.vim` example: `mksession testProject.vim`, then to load it using `nvim` or `vim`, example: `nvim -S testProject.vim`
+5. Load session project being worked on `:mksession nameFile.vim` example: `:mksession testProject.vim`, then to load it using `nvim` or `vim`, example: `nvim -S testProject.vim`
 
 ## Preview
 
