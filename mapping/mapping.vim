@@ -49,3 +49,4 @@ map <leader>s za
 imap <C-x> <C-j>
 imap <C-z> <C-k>
 
+nmap <C-i> :IndentLinesToggle<CR>
