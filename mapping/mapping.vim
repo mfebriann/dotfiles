@@ -48,5 +48,3 @@ map <leader>s za
 " Next and Previous snippets
 imap <C-x> <C-j>
 imap <C-z> <C-k>
-
-nmap <C-i> :IndentLinesToggle<CR>
