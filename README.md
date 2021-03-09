@@ -68,7 +68,6 @@
 | `Ctrl` + `n` | Select cursor and next select text | Normal mode |
 | `Ctrl` + `x` | Skip the next cursor select | Normal Mode |
 | `Ctrl` + `p` | Previous select cursor | Normal Mode |
-| `Ctrl` + `i` | Show or enabled indent line | Normal Mode |
  
 
 ## Notes
