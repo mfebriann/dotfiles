@@ -28,6 +28,8 @@ Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Multiple cursor
 Plug 'terryma/vim-multiple-cursors'
+" Check StartupTime
+Plug 'dstein64/vim-startuptime'
 call plug#end()
 
 source ~/.config/nvim/mapping/mapping.vim
