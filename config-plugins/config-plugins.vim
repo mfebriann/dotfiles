@@ -30,14 +30,8 @@ let g:chadtree_settings = {
 nnoremap <C-b> :CHADopen<CR>
 nmap <C-f> :CHADopen --always-focus<CR> 
 
-" Open Window Tab
-nnoremap <C-w> :vsplit<CR>
-nnoremap <C-k> <C-w><C-h>
-nnoremap <C-l> <C-w><C-l>
-
 " For Icons Plugin
 set guifont=Meslo\ Nerd\ Font\ 15
-let g:airline_powerline_fonts = 2
 
 " Don't Forget to install ripgrep, cek you version rg --version
 " Find files in directory with Ctrl + e 
