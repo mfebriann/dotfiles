@@ -48,3 +48,8 @@ map <leader>s za
 " Next and Previous snippets
 imap <C-x> <C-j>
 imap <C-z> <C-k>
+" Open Window Tab
+nnoremap <C-w> :vsplit<CR>
+nnoremap <C-k> <C-w><C-h>
+nnoremap <C-j> <C-w><C-j>
+nnoremap <C-l> <C-w><C-l>
