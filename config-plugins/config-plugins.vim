@@ -1,10 +1,5 @@
-" Theme Colorscheme OceanicNext
-if (has("termguicolors"))
-set termguicolors
-endif
-" Theme
-syntax enable
-colorscheme OceanicNext
+" Theme colorscheme gruvbox
+colorscheme gruvbox
 
 " Emmet HTML & CSS 
 let g:user_emmet_install_global = 1
