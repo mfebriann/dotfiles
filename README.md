@@ -24,7 +24,7 @@
 | Polygot | https://github.com/sheerun/vim-polyglot |
 | Snippets | https://github.com/SirVer/ultisnips | | https://gist.github.com/mfebriann/a9d55a44a50647c3caecbc08c1cd654b |
 | Multiple cursor | https://github.com/terryma/vim-multiple-cursors |
-
+| Surround bracket, quotes, and more | https://github.com/tpope/vim-surround |
 
 ## Other Source
 
