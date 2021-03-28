@@ -2,7 +2,7 @@ call plug#begin('~/.config/nvim/plugged')
 " Snippets plugin
 Plug 'SirVer/ultisnips'
 " Colorscheme
-Plug 'mhartington/oceanic-next'
+Plug 'morhetz/gruvbox'
 " Plugin Emmet 
 Plug 'mattn/emmet-vim'
 "Plugin Fuzzy Finder (FzF) 
