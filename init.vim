@@ -28,6 +28,7 @@ Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Multiple cursor
 Plug 'terryma/vim-multiple-cursors'
+call plug#end()
 
 source ~/.config/nvim/mapping/mapping.vim
 source ~/.config/nvim/config-plugins/config-plugins.vim
