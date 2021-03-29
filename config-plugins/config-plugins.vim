@@ -1,5 +1,7 @@
 " Theme colorscheme gruvbox
-colorscheme gruvbox
+colorscheme gruvbox8
+
+
 
 " Emmet HTML & CSS 
 let g:user_emmet_install_global = 1
