@@ -9,7 +9,7 @@
 
 | Name Plugins | Link Plugins | Docs | Link Short Description |
 | ------------ | ------------ | ---- | ---------------------- |
-| Colorscheme | https://github.com/morhetz/gruvbox |
+| Colorscheme | https://github.com/lifepillar/vim-gruvbox8 |
 | Lightline | https://github.com/mhartington/oceanic-next |
 | CHADtree | https://github.com/itchyny/lightline.vim | https://github.com/ms-jpq/chadtree/tree/chad/docs |
 | Icons | https://github.com/ryanoasis/vim-devicons |
