@@ -17,13 +17,13 @@ let g:lightline = {
 
 " Open CHADtree with Ctrl + b
 let g:chadtree_settings = {
-      \ 'view': {
-      \   'width': 50
-      \ },
-      \ 'keymap': {
-      \    'new': ['n'] 
-      \ }
-    \ }
+   \ 'view': {
+   \   'width': 50
+   \ },
+   \ 'keymap': {
+   \    'new': ['n'] 
+   \ }
+ \ }
 nnoremap <C-b> :CHADopen<CR>
 nmap <C-f> :CHADopen --always-focus<CR> 
 
